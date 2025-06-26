@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    min-height: 100vh;
+    font-size: 1.1rem;
+}
+
+nav {
+    background: #f0f0f0;
+    width: 220px;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
