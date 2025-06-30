@@ -1,33 +1,41 @@
+/* === Color Variables and Dark Mode === */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --nav-bg: #f0f0f0;
+    --nav-text: #333333;
+    --nav-hover: #007bff;
+    --nav-active-bg: rgba(0, 123, 255, 0.1);
+    --link-color: #007bff;
+    --border-color: rgba(0, 0, 0, 0.08);
+    --caption-color: #555555;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #2a2a2a;
+        --text-color: #e0e0e0;
+        --nav-bg: #3a3a3a;
+        --nav-text: #e0e0e0;
+        --nav-hover: #66b3ff;
+        --nav-active-bg: rgba(102, 179, 255, 0.2);
+        --link-color: #66b3ff;
+        --border-color: rgba(255, 255, 255, 0.1);
+        --caption-color: #b0b0b0;
+    }
+}
+
+/* === Base Layout === */
 body {
-    margin: 0;
+    margin: 0 auto;
     font-family: sans-serif;
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
     font-size: 1.1rem;
-}
-
-nav {
-    background: #f0f0f0;
-    width: 220px;
-    padding: 2rem 1rem;
-    box-sizing: border-box;
-    min-height: 100vh;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav li {
-    margin-bottom: 1.5rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 1.1rem;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    max-width: 1200px;
 }
 
 main {
@@ -35,11 +43,185 @@ main {
     padding: 2rem;
 }
 
-section {
-    margin-bottom: 3rem;
+html {
+    scroll-behavior: smooth;
 }
 
+a {
+    color: var(--link-color);
+}
+
+/* === Navigation Bar === */
+nav {
+    background: var(--nav-bg);
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-image {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.nav-image svg,
+.nav-image img {
+    width: 32px;
+    height: 32px;
+    opacity: 0.8;
+    display: block;
+}
+
+.nav-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--nav-text);
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--nav-hover);
+}
+
+.nav-item.nav-active {
+    background-color: var(--nav-active-bg);
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin: -0.5rem;
+}
+
+.nav-item.nav-active a {
+    color: var(--nav-hover);
+}
+
+/* === Typography & Spacing === */
 h2 {
     margin-top: 0;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+}
+
+p {
+    margin-bottom: 1.1rem;
+    line-height: 1.4;
+}
+
+ul,
+ol {
+    margin: 1.2rem 0;
+}
+
+ul {
+    padding-left: 1.8rem;
+}
+
+ol {
+    padding-left: 70px;
+}
+
+li {
+    margin-bottom: 0.8rem;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+/* === Flex Layout for Side-by-Side Content === */
+.flex-row {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.left-col {
+    flex: 0 0 35%;
+    min-width: 200px;
+    max-width: 35vw;
+}
+
+.right-col {
+    flex: 0 0 60%;
+    min-width: 250px;
+    max-width: 640px;
+}
+
+.right-col img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px var(--border-color);
+}
+
+.img-caption {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.95em;
+    color: var(--caption-color);
+    text-align: center;
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+    body {
+        max-width: 100%;
+    }
+
+    nav {
+        padding: 0.5rem;
+    }
+
+    nav ul {
+        gap: 0.5rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    .flex-row {
+        flex-direction: column;
+    }
+
+    .left-col,
+    .right-col {
+        max-width: 100%;
+        flex: 1 1 100%;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
