@@ -1,0 +1,39 @@
+---
+layout: ../../layouts/BaseLayout.astro
+title: What about the municipality? - Amsterdam tegen afval
+---
+
+## What about the municipality?
+
+Damage related to the deposit scheme 
+[has already cost Amsterdam about 4 million euros](https://www.at5.nl/nieuws/232025/schade-statiegeldzoekers-10-miljoen).
+
+The municipality has therefore considered a number of measures:
+
+- From July 1, 2025, bins will be mandatory for businesses in the city center
+  \[[AT5](https://www.at5.nl/artikelen/232360/bedrijven-mogen-afval-niet-meer-in-plastic-zakken-op-straat-zetten),
+    [Parool](https://www.parool.nl/amsterdam/nieuwe-maatregel-in-strijd-tegen-afval-ondernemers-moeten-vuilnis-in-kliko-s-dumpen~bcc57962/?referrer=https%3A%2F%2Fwww.google.com%2F)\]. This should lead to fewer garbage bags on the street.
+
+- As in previous years, containers will be added in the summer, especially around parks \[[AT5](https://www.at5.nl/nieuws/233210/met-coaches-en-pizzagleuven-hoopt-gemeente-afvaloverlast-in-zomer-tegen-te-gaan)\].
+
+- Trials are being conducted with special containers or racks for deposit cans and bottles
+  \[[AT5](https://www.instagram.com/reel/C8me4MLI9Fo/),
+  [Parool](https://www.parool.nl/amsterdam/speciale-inzamelbakken-voor-blikjes-in-het-vondelpark-maar-weet-de-borrelaar-ze-te-vinden~bba15258/)\]. So far, these [do not all seem to be effective](https://www.nhnieuws.nl/nieuws/337571/amsterdammers-gaan-zelf-de-strijd-aan-tegen-door-statiegeld-zoekers-veroorzaakte-troep) and sometimes [are not followed up](https://www.parool.nl/amsterdam/zwerfafval-blijft-groot-probleem-in-amsterdam-met-name-in-binnenstad-en-zuidoost~bbf9af6f/), because plastic and cans still end up in the regular waste bin.
+
+- From 2026, "bulky waste" may no longer simply be placed on the street on specific days, but will probably be collected by appointment
+  \[[Parool](https://www.parool.nl/amsterdam/historische-verandering-in-amsterdam-grofvuil-mag-vanaf-2026-niet-meer-zomaar-op-straat~ba43f970/)\]. This could easily lead to more litter on the street.
+
+Not all of these measures are equally successful. Some have [unintended effects](https://www.parool.nl/amsterdam/gemeente-roept-op-afval-begin-volgende-week-binnen-te-houden-vanwege-staking-bij-afvalverwerking~bcd73bdf/), such as the deposit scheme itself. So stay critical of new measures, and keep reporting litter problems, even if the municipality is slow to respond.
+
+
+## Why not stricter enforcement?
+
+Stricter action against deposit collectors who leave litter behind is unlikely to help. As long as the deposit scheme exists, people will collect cans. These people often live on the edge of poverty.
+
+Imagine you're not sure if you will have enough money for food tonight. Would you still be careful with waste?
+
+Besides, deposit collectors are not the only cause. For example, 
+[this sample study](https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf) found that 3% of unopened bins were completely full, and that litter fell out. In addition, a lot of waste still ends up directly on the street due to littering.
+
+That’s why we prefer seeing what you can do yourself, before looking at the municipality to act. 
+But by all means, if you see a deposit collector leave litter behind, talk to them!
