@@ -8,5 +8,9 @@ export default defineConfig({
         '/probleem': '/nl/probleem',
         '/oplossingen': '/nl/oplossingen',
         '/gemeente': '/nl/gemeente'
-    }
+    },
+
+    output: 'static',
+
+    base: '/tegenafval/'
 });
