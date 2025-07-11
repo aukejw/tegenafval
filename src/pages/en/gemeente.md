@@ -20,21 +20,21 @@ The municipality has therefore considered a number of measures:
   \[[AT5](https://www.instagram.com/reel/C8me4MLI9Fo/),
   [Parool](https://www.parool.nl/amsterdam/speciale-inzamelbakken-voor-blikjes-in-het-vondelpark-maar-weet-de-borrelaar-ze-te-vinden~bba15258/)\]. So far, these [do not all seem to be effective](https://www.nhnieuws.nl/nieuws/337571/amsterdammers-gaan-zelf-de-strijd-aan-tegen-door-statiegeld-zoekers-veroorzaakte-troep) and sometimes [are not followed up](https://www.parool.nl/amsterdam/zwerfafval-blijft-groot-probleem-in-amsterdam-met-name-in-binnenstad-en-zuidoost~bbf9af6f/), because plastic and cans still end up in the regular waste bin.
 
-- From 2026, "bulky waste" may no longer simply be placed on the street on specific days, but will probably be collected by appointment
+- From 2026, "bulky waste" may no longer be placed on the street on specific days, but will probably be collected by appointment
   \[[Parool](https://www.parool.nl/amsterdam/historische-verandering-in-amsterdam-grofvuil-mag-vanaf-2026-niet-meer-zomaar-op-straat~ba43f970/)\]. This could easily lead to more litter on the street.
 
-Not all of these measures are equally successful. Some have [unintended effects](https://www.parool.nl/amsterdam/gemeente-roept-op-afval-begin-volgende-week-binnen-te-houden-vanwege-staking-bij-afvalverwerking~bcd73bdf/), such as the deposit scheme itself. So stay critical of new measures, and keep reporting litter problems, even if the municipality is slow to respond.
+Not all of these measures are equally successful. Some have [unintended effects](https://www.parool.nl/amsterdam/gemeente-roept-op-afval-begin-volgende-week-binnen-te-houden-vanwege-staking-bij-afvalverwerking~bcd73bdf/), just like the deposit scheme. Remain critical of new measures, and keep reporting litter problems, even if the municipality is slow to respond.
 
 
 ## Why not stricter enforcement?
 
 Stricter action against deposit collectors who leave litter behind is unlikely to help. As long as the deposit scheme exists, people will collect cans. These people often live on the edge of poverty.
 
-Imagine you're not sure if you will have enough money for food tonight. Would you still be careful with waste?
+Imagine: you're not sure if you'll have enough money for food tonight. Would you still be as careful with waste?
 
 Besides, deposit collectors are not the only cause. For example, 
 [this sample study](https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf) found that 3% of unopened bins were completely full, and that litter fell out. In addition, a lot of waste still ends up directly on the street due to littering.
 
 That’s why we first encourage grassroots action.
 
-But: the municipality can and should certainly do more.
+But: the municipality can and should certainly do more to solve this problem.
