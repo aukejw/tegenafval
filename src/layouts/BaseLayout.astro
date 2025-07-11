@@ -9,19 +9,19 @@ const { title } = Astro.props;
 <!DOCTYPE html>
 <html lang="nl">
     <head>
-        <!-- `sizes="any"` is to fix Chrome bug -->
         <link rel="icon" href="/favicons/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicons/icon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
         <link rel="manifest" href="/favicons/manifest.webmanifest" />
 
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
         <title>{title}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/style.css" />
+        <link rel="stylesheet" href="/tegenafval/style.css" />
         <script>
             document.addEventListener("DOMContentLoaded", function () {
-                // Dark mode toggle functionality
+                // Dark mode toggle 
                 const darkModeToggle = document.getElementById('dark-mode-toggle');
                 const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
                 
@@ -39,7 +39,6 @@ const { title } = Astro.props;
                     }
                 }
 
-                // Toggle dark mode
                 if (darkModeToggle) {
                     darkModeToggle.addEventListener('click', function() {
                         document.body.classList.toggle('dark-mode');
@@ -63,30 +62,32 @@ const { title } = Astro.props;
                         // Navigate to the corresponding page in the new language
                         const currentPath = window.location.pathname;
                         let newPath;
+
+                        const base = '/tegenafval';
                         
                         if (currentLang === 'en') {
-                            if (currentPath === '/' || currentPath === '/nl/home') {
-                                newPath = '/en/home';
-                            } else if (currentPath === '/probleem' || currentPath === '/nl/probleem') {
-                                newPath = '/en/probleem';
-                            } else if (currentPath === '/oplossingen' || currentPath === '/nl/oplossingen') {
-                                newPath = '/en/oplossingen';
-                            } else if (currentPath === '/gemeente' || currentPath === '/nl/gemeente') {
-                                newPath = '/en/gemeente';
+                            if (currentPath === base + '/' || currentPath === base + '/nl/home') {
+                                newPath = base + '/en/home';
+                            } else if (currentPath === base + '/probleem' || currentPath === base + '/nl/probleem') {
+                                newPath = base + '/en/probleem';
+                            } else if (currentPath === base + '/oplossingen' || currentPath === base + '/nl/oplossingen') {
+                                newPath = base + '/en/oplossingen';
+                            } else if (currentPath === base + '/gemeente' || currentPath === base + '/nl/gemeente') {
+                                newPath = base + '/en/gemeente';
                             } else {
-                                newPath = '/en/home'; 
+                                newPath = base + '/en/home'; 
                             }
                         } else {
-                            if (currentPath === '/en/home') {
-                                newPath = '/';
-                            } else if (currentPath === '/en/probleem') {
-                                newPath = '/probleem';
-                            } else if (currentPath === '/en/oplossingen') {
-                                newPath = '/oplossingen';
-                            } else if (currentPath === '/en/gemeente') {
-                                newPath = '/gemeente';
+                            if (currentPath === base + '/en/home') {
+                                newPath = base + '/';
+                            } else if (currentPath === base + '/en/probleem') {
+                                newPath = base + '/probleem';
+                            } else if (currentPath === base + '/en/oplossingen') {
+                                newPath = base + '/oplossingen';
+                            } else if (currentPath === base + '/en/gemeente') {
+                                newPath = base + '/gemeente';
                             } else {
-                                newPath = '/'; 
+                                newPath = base + '/'; 
                             }
                         }
                         
@@ -97,16 +98,18 @@ const { title } = Astro.props;
                 function updateLanguage(lang) {
                     const navLinks = document.querySelectorAll('.main-nav a');
                     const languageToggle = document.getElementById('language-toggle');
-                    
+                    // Set your base path here. If you change the base in astro.config.mjs, update this as well.
+                    const base = '/tegenafval';
+
                     if (lang === 'en') {
                         // Update navigation links to English
-                        navLinks[0].href = '/en/home';
+                        navLinks[0].href = base + '/en/home';
                         navLinks[0].textContent = 'Home';
-                        navLinks[1].href = '/en/probleem';
+                        navLinks[1].href = base + '/en/probleem';
                         navLinks[1].textContent = 'The problem';
-                        navLinks[2].href = '/en/oplossingen';
+                        navLinks[2].href = base + '/en/oplossingen';
                         navLinks[2].textContent = 'How can I help?';
-                        navLinks[3].href = '/en/gemeente';
+                        navLinks[3].href = base + '/en/gemeente';
                         navLinks[3].textContent = 'What about the municipality?';
                         
                         if (languageToggle) {
@@ -114,13 +117,13 @@ const { title } = Astro.props;
                         }
                     } else {
                         // Update navigation links to Dutch
-                        navLinks[0].href = '/';
+                        navLinks[0].href = base + '/nl/home';
                         navLinks[0].textContent = 'Home';
-                        navLinks[1].href = '/probleem';
+                        navLinks[1].href = base + '/nl/probleem';
                         navLinks[1].textContent = 'Het probleem';
-                        navLinks[2].href = '/oplossingen';
+                        navLinks[2].href = base + '/nl/oplossingen';
                         navLinks[2].textContent = 'Wat kan ik zelf doen?';
-                        navLinks[3].href = '/gemeente';
+                        navLinks[3].href = base + '/nl/gemeente';
                         navLinks[3].textContent = 'Wat doet de gemeente?';
                         
                         if (languageToggle) {
@@ -139,10 +142,10 @@ const { title } = Astro.props;
         </main>
         <nav class="main-nav">
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/probleem">Het probleem</a></li>
-                <li><a href="/oplossingen">Wat kan ik zelf doen?</a></li>
-                <li><a href="/gemeente">Wat doet de gemeente?</a></li>
+                <li><a href="/tegenafval/nl/home">Home</a></li>
+                <li><a href="/tegenafval/nl/probleem">Het probleem</a></li>
+                <li><a href="/tegenafval/nl/oplossingen">Wat kan ik zelf doen?</a></li>
+                <li><a href="/tegenafval/nl/gemeente">Wat doet de gemeente?</a></li>
             </ul>
             <div class="nav-buttons">
                 <button id="language-toggle" class="language-toggle">EN</button>
