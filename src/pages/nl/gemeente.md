@@ -35,6 +35,6 @@ Stel je voor dat je niet zeker weet of je 's avonds kunt eten. Zou jij dan nog e
 
 Statiegeldjagers zijn ook niet de enige oorzaak. Bijvoorbeeld: [deze steekproef](https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf) liet zien dat 3% van niet-opengemaakte prullenbakken overvol was. En veel afval landt nog altijd direct op straat.
 
-Daarom beginnen wij met de dingen die iedereen kan doen.
+Daarom moedigen wij eerst de acties aan die iedereen kan uitvoeren.
 
-Maar: de gemeente kan en moet zeker meer doen.
+Maar: de gemeente kan en moet zeker meer doen om dit probleem op te lossen.
