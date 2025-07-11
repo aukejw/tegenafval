@@ -22,7 +22,7 @@ A crowd-sourced sample by
 
 <div class="img-container">
     <img src="/images/prullenbakken_amsterdam.png" alt="Bins in Amsterdam" class="img-header">
-    <span class="img-caption">Photographed bins, red = open/broken.<br>Source: <a href="https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf">"Rapport Nationale Prullenbakteldag 2024"</a></span>
+    <span class="img-caption-default">Photographed bins, red = open/broken.<br>Source: <a href="https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf">"Rapport Nationale Prullenbakteldag 2024"</a></span>
 </div>
 
 We do not have comparable data from *before* the deposit scheme. But it's clear that a few years ago, we saw less litter on the street.

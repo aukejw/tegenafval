@@ -21,7 +21,7 @@ Een crowd-sourced steekproef van
 
 <div class="img-container">
     <img src="/images/prullenbakken_amsterdam.png" alt="Prullenbakken in Amsterdam" class="img-header">
-    <span class="img-caption">Gefotografeerde prullenbakken, rood = open/kapot.<br>Bron: <a href="https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf">"Rapport Nationale Prullenbakteldag 2024"</a></span>
+    <span class="img-caption-default">Gefotografeerde prullenbakken, rood = open/kapot.<br>Bron: <a href="https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf">"Rapport Nationale Prullenbakteldag 2024"</a></span>
 </div>
 
 We hebben geen vergelijkbare data van vóór de statiegeldregeling. Maar iedereen weet: een paar jaar terug zagen we minder zwerfafval op straat.
