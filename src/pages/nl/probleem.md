@@ -20,7 +20,7 @@ Een crowd-sourced steekproef van
 - In kleinere steden is dit nauwelijks een probleem.
 
 <div class="img-container">
-    <img src="/images/prullenbakken_amsterdam.png" alt="Prullenbakken in Amsterdam" class="img-header">
+    <img src="/tegenafval/images/prullenbakken_amsterdam.png" alt="Prullenbakken in Amsterdam" class="img-header">
     <span class="img-caption">Gefotografeerde prullenbakken, rood = open/kapot.<br>Bron: <a href="https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf">"Rapport Nationale Prullenbakteldag 2024"</a></span>
 </div>
 
