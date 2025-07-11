@@ -56,7 +56,7 @@ const baseUrl = import.meta.env.BASE_URL;
                 // Detect current language from URL path
                 const currentPath = window.location.pathname;
                 let currentLang;
-                if (currentPath.includes('en/')) {
+                if (currentPath.includes('/en/')) {
                     currentLang = 'en';
                 } else {
                     currentLang = 'nl';
