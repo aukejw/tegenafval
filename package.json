@@ -10,6 +10,7 @@
     "deploy": "BASE_PATH=/tegenafval/ npm run build && gh-pages -d dist"
   },
   "dependencies": {
+    "@astrojs/mdx": "^4.3.0",
     "astro": "^5.10.1"
   },
   "devDependencies": {

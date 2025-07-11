@@ -3,6 +3,8 @@ layout: ../../layouts/BaseLayout.astro
 title: The problem - Amsterdam tegen afval
 ---
 
+import { Image } from 'astro:assets';
+
 ## Why do I see so much litter on the street?
 
 In the center of Amsterdam, garbage bags are collected from the street. 
@@ -20,9 +22,9 @@ A crowd-sourced sample by
 - The national average is "only" 5%.
 - In smaller cities, this is a non-issue.
 
-<div class="img-container">
-    <img src="/images/prullenbakken_amsterdam.png" alt="Bins in Amsterdam" class="img-header">
-    <span class="img-caption-default">Photographed bins, red = open/broken.<br>Source: <a href="https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf">"Rapport Nationale Prullenbakteldag 2024"</a></span>
+<div className="img-container">
+    <Image src="/images/prullenbakken_amsterdam.png" alt="Bins in Amsterdam" className="img-header" height={1} width={1} loading="eager" />
+    <span className="img-caption-default">Photographed bins, red = open/broken.<br />Source: <a href="https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf">"Rapport Nationale Prullenbakteldag 2024"</a></span>
 </div>
 
 We do not have comparable data from *before* the deposit scheme. But it's clear that a few years ago, we saw less litter on the street.
@@ -42,4 +44,4 @@ A few important differences:
 
 3. The deposit in Germany is higher: 25 cents per can compared to 10 cents in the Netherlands. This provides extra motivation to return "pfand".
 
-We can learn from Germany, where "[Pfand gehört daneben](https://www.pfand-gehoert-daneben.de/)" is already well-known.
+We can learn from Germany, where "[Pfand gehört daneben](https://www.pfand-gehoert-daneben.de/)" is already well-known. 

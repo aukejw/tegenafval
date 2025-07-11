@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import mdx from '@astrojs/mdx';
 
 // Define base path from config, or default to "/"
 const basePath = process.env.BASE_PATH || "/"
@@ -15,5 +16,9 @@ export default defineConfig({
 
     output: 'static',
 
-    base: basePath
+    base: basePath,
+
+    integrations: [
+        mdx(),
+    ],
 });

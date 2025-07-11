@@ -3,6 +3,8 @@ layout: ../../layouts/BaseLayout.astro
 title: "Het probleem - Amsterdam tegen afval"
 ---
 
+import { Image } from 'astro:assets';
+
 ## Waarom zie ik zoveel afval op straat?
 
 In het centrum van Amsterdam liggen afvalzakken op straat. Deze worden 
@@ -19,9 +21,9 @@ Een crowd-sourced steekproef van
 - Landelijk is dit "slechts" 5%.
 - In kleinere steden is dit nauwelijks een probleem.
 
-<div class="img-container">
-    <img src="/images/prullenbakken_amsterdam.png" alt="Prullenbakken in Amsterdam" class="img-header">
-    <span class="img-caption-default">Gefotografeerde prullenbakken, rood = open/kapot.<br>Bron: <a href="https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf">"Rapport Nationale Prullenbakteldag 2024"</a></span>
+<div className="img-container">
+    <Image src="/images/prullenbakken_amsterdam.png" alt="Prullenbakken in Amsterdam" className="img-header" height={1} width={1} loading="eager" />
+    <span className="img-caption-default">Gefotografeerde prullenbakken, rood = open/kapot.<br />Bron: <a href="https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf">"Rapport Nationale Prullenbakteldag 2024"</a></span>
 </div>
 
 We hebben geen vergelijkbare data van vóór de statiegeldregeling. Maar iedereen weet: een paar jaar terug zagen we minder zwerfafval op straat.
