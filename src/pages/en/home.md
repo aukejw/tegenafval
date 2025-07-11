@@ -24,6 +24,6 @@ Fortunately, it's easy to contribute to a cleaner city:
 
 No bottles or cans in the waste bin? No reason to open it.
 
-Want to do more? [You can](/en/oplossingen)!
-
 Want the municipality to do more? [We agree](/en/gemeente)! 
+
+Want to help in other ways? [You can](/en/oplossingen)!

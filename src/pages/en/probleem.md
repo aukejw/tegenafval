@@ -38,7 +38,7 @@ A few important differences:
 
 1. The Netherlands lags far behind in waste separation. Only [77% of plastic is currently returned](https://www.statiegeldnederland.nl/gm-files/update-voortgang-en-resultaten-statiegeld-in-nederland-cijfers-2024.pdf), compared to 98% in Germany.
 
-2. Deposit collection in the Netherlands is often not well organized. Deposit machines are [often broken](https://www.parool.nl/amsterdam/een-jaar-na-de-invoering-van-statiegeld-op-blikjes-zuchtend-in-ellenlange-rijen-en-langs-omgekieperde-vuilnisbakken~bad34c0a/). This does not motivate people to return bottles and cans, and it [indirectly costs consumers money](https://zwerfinator.nl/index.php/blik-op-stuk/). This is better organized in Germany [[NOS](https://nos.nl/artikel/2527333-niemand-voorzag-de-zooi-op-straat-door-uitbreiding-van-statiegeld)].
+2. Deposit collection in the Netherlands is often not well organized. Deposit machines are [often broken](https://www.parool.nl/amsterdam/een-jaar-na-de-invoering-van-statiegeld-op-blikjes-zuchtend-in-ellenlange-rijen-en-langs-omgekieperde-vuilnisbakken~bad34c0a/). This does not motivate people to return bottles and cans, and it [indirectly costs consumers money](https://zwerfinator.nl/index.php/blik-op-stuk/). Germany has many more functional(!) deposit returns [[NOS](https://nos.nl/artikel/2527333-niemand-voorzag-de-zooi-op-straat-door-uitbreiding-van-statiegeld)].
 
 3. The deposit in Germany is higher: 25 cents per can compared to 10 cents in the Netherlands. This provides extra motivation to return "pfand".
 

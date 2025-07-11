@@ -35,4 +35,6 @@ Imagine you're not sure if you will have enough money for food tonight. Would yo
 Besides, deposit collectors are not the only cause. For example, 
 [this sample study](https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf) found that 3% of unopened bins were completely full, and that litter fell out. In addition, a lot of waste still ends up directly on the street due to littering.
 
-That’s why we prefer starting with grassroots action.
+That’s why we first encourage grassroots action.
+
+But: the municipality can and should certainly do more.

@@ -28,6 +28,6 @@ Gelukkig kun je makkelijk bijdragen aan een schonere stad:
 
 Geen statiegeld in de prullenbak? Geen reden om die open te maken.
 
-Wil je meer doen? [Dat kan](/nl/oplossingen)!
+Wil je dat de gemeente meer doet? [Wij ook](/nl/gemeente)! 
 
-Wil je dat de gemeente meer doet? [Dat kan ook](/nl/gemeente)! 
+Wil je zelf meer doen? [Dat kan](/nl/oplossingen)!

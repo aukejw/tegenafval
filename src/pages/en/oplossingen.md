@@ -3,14 +3,19 @@ layout: ../../layouts/BaseLayout.astro
 title: What can I do? - Amsterdam tegen afval
 ---
 
-## You can do a lot more!
+## What else can you do?
 
-- See someone littering, or using a waste bin that's already full? Say something.
+Keeping cans and bottles out of the waste bins is easy, and doesn't ask much of you.
+However, it only addresses a small part of the problem.
 
-- Talk to your neighbors if they put out bulky waste (grofvuil) on the wrong day or in the wrong place? 
+You can do a lot more:
+
+- See someone littering, or using a waste bin that's already full or broken? Say something.
+
+- Talk to your neighbors if they put out bulky waste (grofvuil) on the wrong day or in the wrong place.
   Refer them to [amsterdam-afval.nl](https://amsterdam-afval.nl/) (Dutch).
 
-- [Borrow a free litter picker from the municipality](https://www.amsterdam.nl/afval/leen-afvalgrijper-afvalring/), or [buy your own litter picker](https://www.bol.com/nl/nl/l/grijpers/30657/). Keep your street clean. Ask your neighbors to join in.
+- [Get a free litter picker from the municipality](https://www.amsterdam.nl/afval/leen-afvalgrijper-afvalring/), or [buy your own litter picker](https://www.bol.com/nl/nl/l/grijpers/30657/). Keep your street clean. Ask your neighbors to join in.
 
 - Join one of the local initiatives in the city: 
   [Trashy Friends Club (Instagram)](https://www.instagram.com/trashyfriendsclub/), 

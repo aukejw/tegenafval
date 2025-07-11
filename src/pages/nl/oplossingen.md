@@ -3,9 +3,13 @@ layout: ../../layouts/BaseLayout.astro
 title: "Wat kun je doen? - Amsterdam tegen afval"
 ---
 
-## Je kunt nog veel meer doen!
+## Wat kun je nog meer doen?
 
-- Zie je iemand afval op straat gooien, of een overvolle prullenbak gebruiken? Spreek ze aan.
+Blikjes, plastic flessen en glas buiten de prullenbak houden is een begin, maar het lost slechts een klein deel van het probleem op.
+
+Je kunt nog veel meer doen:
+
+- Zie je iemand afval op straat gooien, of een overvolle of kapotte prullenbak gebruiken? Spreek ze aan.
 
 - Spreek je buren aan als ze afval of grofvuil op de verkeerde plaats of dag op straat zetten. 
   Verwijs ze door naar [amsterdam-afval.nl](https://amsterdam-afval.nl/) (Nederlands).

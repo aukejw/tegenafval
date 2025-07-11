@@ -37,7 +37,7 @@ Een paar belangrijke verschillen:
 
 1. Nederland loopt ver achter met afvalscheiding. Slechts [77% van plastic wordt nu ingeleverd](https://www.statiegeldnederland.nl/gm-files/update-voortgang-en-resultaten-statiegeld-in-nederland-cijfers-2024.pdf), vergeleken met 98% in Duitsland.
 
-2. Statiegeldcollectie is in Nederland vaak niet goed geregeld. Statiegeldapparaten zijn [vaak stuk](https://www.parool.nl/amsterdam/een-jaar-na-de-invoering-van-statiegeld-op-blikjes-zuchtend-in-ellenlange-rijen-en-langs-omgekieperde-vuilnisbakken~bad34c0a/). Dit motiveert niet tot inleveren, en kost de [consument indirect geld](https://zwerfinator.nl/index.php/blik-op-stuk/). Dit is in Duitsland beter geregeld [[NOS](https://nos.nl/artikel/2527333-niemand-voorzag-de-zooi-op-straat-door-uitbreiding-van-statiegeld)].
+2. Statiegeldcollectie is in Nederland vaak niet goed geregeld. Statiegeldapparaten zijn [vaak stuk](https://www.parool.nl/amsterdam/een-jaar-na-de-invoering-van-statiegeld-op-blikjes-zuchtend-in-ellenlange-rijen-en-langs-omgekieperde-vuilnisbakken~bad34c0a/). Dit motiveert niet tot inleveren, en kost de [consument indirect geld](https://zwerfinator.nl/index.php/blik-op-stuk/). Dit is in Duitsland veel beter geregeld [[NOS](https://nos.nl/artikel/2527333-niemand-voorzag-de-zooi-op-straat-door-uitbreiding-van-statiegeld)].
 
 3. Statiegeld is in Duitsland hoger: 25 cent per blikje vergeleken met 10 cent in Nederland. Extra motivatie om "pfand" terug te brengen.
 
