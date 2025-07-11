@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BaseLayout.astro
-title: "Het Probleem - Amsterdam tegen afval"
+title: "Het probleem - Amsterdam tegen afval"
 ---
 
 ## Waarom zie ik zoveel afval op straat?
@@ -20,7 +20,7 @@ Een crowd-sourced steekproef van
 - In kleinere steden is dit nauwelijks een probleem.
 
 <div class="img-container">
-    <img src="/tegenafval/images/prullenbakken_amsterdam.png" alt="Prullenbakken in Amsterdam" class="img-header">
+    <img src="/images/prullenbakken_amsterdam.png" alt="Prullenbakken in Amsterdam" class="img-header">
     <span class="img-caption">Gefotografeerde prullenbakken, rood = open/kapot.<br>Bron: <a href="https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf">"Rapport Nationale Prullenbakteldag 2024"</a></span>
 </div>
 
@@ -41,4 +41,4 @@ Een paar belangrijke verschillen:
 
 3. Statiegeld is in Duitsland hoger: 25 cent per blikje vergeleken met 10 cent in Nederland. Extra motivatie om "pfand" terug te brengen.
 
-Hoe dan ook, we kunnen van Duitsland leren. "[Pfand gehört daneben](https://www.pfand-gehoert-daneben.de/)" is daar al lang bekend. 
+We kunnen van Duitsland leren. "[Pfand gehört daneben](https://www.pfand-gehoert-daneben.de/)" is daar al lang bekend. 

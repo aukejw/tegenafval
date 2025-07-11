@@ -33,6 +33,7 @@ Strenger optreden tegen statiegeldjagers die afval achterlaten levert waarschijn
 
 Stel je voor dat je niet zeker weet of je 's avonds kunt eten. Zou jij dan nog even zorgvuldig omgaan met afval?
 
-Statiegeldjagers zijn ook niet de enige oorzaak. Bijvoorbeeld: [deze steekproef](https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf) liet zien dat 3% van de niet-opengemaakte prullenbakken overvol waren. Daarnaast landt veel afval nog altijd direct op straat.
+Statiegeldjagers zijn ook niet de enige oorzaak. Bijvoorbeeld: [deze steekproef](https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf) liet zien dat 3% van de niet-opengemaakte prullenbakken overvol waren. 
+Daarnaast landt veel afval nog altijd direct op straat.
 
-Daarom kijken wij naar wat je zelf kunt doen. Maar ga vooral het gesprek aan als iemand een prullenbak open laat staan of afval op straat achterlaat. 
+Daarom beginnen wij bij acties die iedereen kan uitvoeren.

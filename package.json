@@ -7,7 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "BASE_PATH=/tegenafval/ npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "astro": "^5.10.1"

@@ -2,8 +2,8 @@
 export interface Props {
     title: string;
 }
-
 const { title } = Astro.props;
+const baseUrl = import.meta.env.BASE_URL;
 ---
 
 <!DOCTYPE html>
@@ -18,9 +18,11 @@ const { title } = Astro.props;
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
         <title>{title}</title>
-        <link rel="stylesheet" href="/tegenafval/style.css" />
+        <link rel="stylesheet" href={`${baseUrl}style.css`} />
         <script>
             document.addEventListener("DOMContentLoaded", function () {
+                const baseUrl = import.meta.env.BASE_URL;
+
                 // Dark mode toggle 
                 const darkModeToggle = document.getElementById('dark-mode-toggle');
                 const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
@@ -50,7 +52,18 @@ const { title } = Astro.props;
 
                 // Language toggle functionality
                 const languageToggle = document.getElementById('language-toggle');
-                let currentLang = localStorage.getItem('language') || 'nl';
+                
+                // Detect current language from URL path
+                const currentPath = window.location.pathname;
+                let currentLang;
+                if (currentPath.includes('en/')) {
+                    currentLang = 'en';
+                } else {
+                    currentLang = 'nl';
+                }
+                
+                // Update localStorage and UI
+                localStorage.setItem('language', currentLang);
                 updateLanguage(currentLang);
                 
                 if (languageToggle) {
@@ -63,31 +76,29 @@ const { title } = Astro.props;
                         const currentPath = window.location.pathname;
                         let newPath;
 
-                        const base = '/tegenafval';
-                        
                         if (currentLang === 'en') {
-                            if (currentPath === base + '/' || currentPath === base + '/nl/home') {
-                                newPath = base + '/en/home';
-                            } else if (currentPath === base + '/probleem' || currentPath === base + '/nl/probleem') {
-                                newPath = base + '/en/probleem';
-                            } else if (currentPath === base + '/oplossingen' || currentPath === base + '/nl/oplossingen') {
-                                newPath = base + '/en/oplossingen';
-                            } else if (currentPath === base + '/gemeente' || currentPath === base + '/nl/gemeente') {
-                                newPath = base + '/en/gemeente';
+                            if (currentPath.endsWith('nl/home')) {
+                                newPath = `${baseUrl}en/home`;
+                            } else if (currentPath.endsWith('nl/probleem')) {
+                                newPath = `${baseUrl}en/probleem`;
+                            } else if (currentPath.endsWith('nl/oplossingen')) {
+                                newPath = `${baseUrl}en/oplossingen`;
+                            } else if (currentPath.endsWith('nl/gemeente')) {
+                                newPath = `${baseUrl}en/gemeente`;
                             } else {
-                                newPath = base + '/en/home'; 
+                                newPath = `${baseUrl}en/home`; 
                             }
                         } else {
-                            if (currentPath === base + '/en/home') {
-                                newPath = base + '/';
-                            } else if (currentPath === base + '/en/probleem') {
-                                newPath = base + '/probleem';
-                            } else if (currentPath === base + '/en/oplossingen') {
-                                newPath = base + '/oplossingen';
-                            } else if (currentPath === base + '/en/gemeente') {
-                                newPath = base + '/gemeente';
+                            if (currentPath.endsWith('en/home')) {
+                                newPath = `${baseUrl}nl/home`;
+                            } else if (currentPath.endsWith('en/probleem')) {
+                                newPath = `${baseUrl}nl/probleem`;
+                            } else if (currentPath.endsWith('en/oplossingen')) {
+                                newPath = `${baseUrl}nl/oplossingen`;
+                            } else if (currentPath.endsWith('en/gemeente')) {
+                                newPath = `${baseUrl}nl/gemeente`;
                             } else {
-                                newPath = base + '/'; 
+                                newPath = `${baseUrl}nl/home`; 
                             }
                         }
                         
@@ -98,18 +109,16 @@ const { title } = Astro.props;
                 function updateLanguage(lang) {
                     const navLinks = document.querySelectorAll('.main-nav a');
                     const languageToggle = document.getElementById('language-toggle');
-                    // Set your base path here. If you change the base in astro.config.mjs, update this as well.
-                    const base = '/tegenafval';
 
                     if (lang === 'en') {
                         // Update navigation links to English
-                        navLinks[0].href = base + '/en/home';
+                        navLinks[0].href = `${baseUrl}en/home`;
                         navLinks[0].textContent = 'Home';
-                        navLinks[1].href = base + '/en/probleem';
+                        navLinks[1].href = `${baseUrl}en/probleem`;
                         navLinks[1].textContent = 'The problem';
-                        navLinks[2].href = base + '/en/oplossingen';
+                        navLinks[2].href = `${baseUrl}en/oplossingen`;
                         navLinks[2].textContent = 'How can I help?';
-                        navLinks[3].href = base + '/en/gemeente';
+                        navLinks[3].href = `${baseUrl}en/gemeente`;
                         navLinks[3].textContent = 'What about the municipality?';
                         
                         if (languageToggle) {
@@ -117,13 +126,13 @@ const { title } = Astro.props;
                         }
                     } else {
                         // Update navigation links to Dutch
-                        navLinks[0].href = base + '/nl/home';
+                        navLinks[0].href = `${baseUrl}nl/home`;
                         navLinks[0].textContent = 'Home';
-                        navLinks[1].href = base + '/nl/probleem';
+                        navLinks[1].href = `${baseUrl}nl/probleem`;
                         navLinks[1].textContent = 'Het probleem';
-                        navLinks[2].href = base + '/nl/oplossingen';
-                        navLinks[2].textContent = 'Wat kan ik zelf doen?';
-                        navLinks[3].href = base + '/nl/gemeente';
+                        navLinks[2].href = `${baseUrl}nl/oplossingen`;
+                        navLinks[2].textContent = 'Kan ik meer doen?';
+                        navLinks[3].href = `${baseUrl}nl/gemeente`;
                         navLinks[3].textContent = 'Wat doet de gemeente?';
                         
                         if (languageToggle) {
@@ -142,10 +151,10 @@ const { title } = Astro.props;
         </main>
         <nav class="main-nav">
             <ul>
-                <li><a href="/tegenafval/nl/home">Home</a></li>
-                <li><a href="/tegenafval/nl/probleem">Het probleem</a></li>
-                <li><a href="/tegenafval/nl/oplossingen">Wat kan ik zelf doen?</a></li>
-                <li><a href="/tegenafval/nl/gemeente">Wat doet de gemeente?</a></li>
+                <li><a href={`${baseUrl}nl/home`}>Home</a></li>
+                <li><a href={`${baseUrl}nl/probleem`}>Het probleem</a></li>
+                <li><a href={`${baseUrl}nl/oplossingen`}>Kan ik meer doen?</a></li>
+                <li><a href={`${baseUrl}nl/gemeente`}>Wat doet de gemeente?</a></li>
             </ul>
             <div class="nav-buttons">
                 <button id="language-toggle" class="language-toggle">EN</button>

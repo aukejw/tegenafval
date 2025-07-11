@@ -3,13 +3,14 @@ layout: ../../layouts/BaseLayout.astro
 title: "Wat kun je doen? - Amsterdam tegen afval"
 ---
 
-## Wat kan ik zelf doen?
+## Je kunt nog veel meer doen!
 
-- Zie je iemand afval op straat gooien? Spreek ze aan.
+- Zie je iemand afval op straat gooien, of een overvolle prullenbak gebruiken? Spreek ze aan.
 
-- Spreek je buren aan als ze afval of grofvuil op de verkeerde plaats of dag op straat zetten. Verwijs ze door naar [amsterdam-afval.nl](https://amsterdam-afval.nl/) (Nederlands).
+- Spreek je buren aan als ze afval of grofvuil op de verkeerde plaats of dag op straat zetten. 
+  Verwijs ze door naar [amsterdam-afval.nl](https://amsterdam-afval.nl/) (Nederlands).
 
-- [Leen een afvalgrijper via de gemeente Amsterdam](https://www.amsterdam.nl/afval/leen-afvalgrijper-afvalring/), of [koop zelf een afvalgrijper](https://www.bol.com/nl/nl/l/grijpers/30657/). Houd je straat schoon. Vraag je buren mee te doen.
+- [Leen een gratis afvalgrijper via de gemeente Amsterdam](https://www.amsterdam.nl/afval/leen-afvalgrijper-afvalring/), of [koop zelf een afvalgrijper](https://www.bol.com/nl/nl/l/grijpers/30657/). Houd je straat schoon. Vraag je buren mee te doen.
 
 - Sluit je aan bij een van de initatieven in de stad: [Trashy Friends Club (instagram)](https://www.instagram.com/trashyfriendsclub/), [Vuilnis oproer Nieuw-West](https://www.vuilnisoproer.nl/vuilnisoproer), [Amsterdam Cleanup Day](https://www.amsterdamcleanupday.com/).
 
@@ -23,4 +24,4 @@ title: "Wat kun je doen? - Amsterdam tegen afval"
 
 Er zijn [talloze andere ideeën](https://www.parool.nl/columns-opinie/lezers-over-opengebroken-prullenbakken-in-amsterdam-in-berlijn-en-kopenhagen-is-deze-oplossing-al-heel-normaal~b93cef88/), maar die vereisen soms investering van de gemeente of nieuwe regels rond statiegeld en afval. 
 
-Deze opties beginnen bij wat jij zelf kunt doen.
+Deze opties zijn simpel en kosten nauwelijks moeite. Doe mee!

@@ -21,7 +21,7 @@ A crowd-sourced sample by
 - In smaller cities, this is a non-issue.
 
 <div class="img-container">
-    <img src="/tegenafval/images/prullenbakken_amsterdam.png" alt="Bins in Amsterdam" class="img-header">
+    <img src="/images/prullenbakken_amsterdam.png" alt="Bins in Amsterdam" class="img-header">
     <span class="img-caption">Photographed bins, red = open/broken.<br>Source: <a href="https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf">"Rapport Nationale Prullenbakteldag 2024"</a></span>
 </div>
 
@@ -42,4 +42,4 @@ A few important differences:
 
 3. The deposit in Germany is higher: 25 cents per can compared to 10 cents in the Netherlands. This provides extra motivation to return "pfand".
 
-In any case, we can learn from Germany, where "[Pfand gehört daneben](https://www.pfand-gehoert-daneben.de/)" is already well-known.
+We can learn from Germany, where "[Pfand gehört daneben](https://www.pfand-gehoert-daneben.de/)" is already well-known.

@@ -35,5 +35,4 @@ Imagine you're not sure if you will have enough money for food tonight. Would yo
 Besides, deposit collectors are not the only cause. For example, 
 [this sample study](https://www.uu.nl/sites/default/files/Rapport%20Nationale%20Prullenbakteldag%202024.pdf) found that 3% of unopened bins were completely full, and that litter fell out. In addition, a lot of waste still ends up directly on the street due to littering.
 
-That’s why we prefer seeing what you can do yourself, before looking at the municipality to act. 
-But by all means, if you see a deposit collector leave litter behind, talk to them!
+That’s why we prefer starting with grassroots action.
