@@ -14,10 +14,10 @@ looking for bottles and cans.
 
 A crowd-sourced sample by 
 [Dirk de Groot (a.k.a. zwerfinator)](https://www.zwerfinator.nl/) and 
-[Merijn Tinga](https://www.plasticsoupsurfer.org/) in November 2024 showed the following for Amsterdam:
+[Merijn Tinga](https://www.plasticsoupsurfer.org/) in November 2024 showed the following:
 
-- 20% of public bins were open or broken.
-- The national average is only 5%.
+- 20% of sampled public bins in Amsterdam were left open or broken.
+- The national average is "only" 5%.
 - In smaller cities, this is a non-issue.
 
 <div class="img-container">
