@@ -77,25 +77,25 @@ const baseUrl = import.meta.env.BASE_URL;
                         let newPath;
 
                         if (currentLang === 'en') {
-                            if (currentPath.endsWith('nl/home')) {
+                            if (currentPath.includes('/nl/home')) {
                                 newPath = `${baseUrl}en/home`;
-                            } else if (currentPath.endsWith('nl/probleem')) {
+                            } else if (currentPath.includes('/nl/probleem')) {
                                 newPath = `${baseUrl}en/probleem`;
-                            } else if (currentPath.endsWith('nl/oplossingen')) {
+                            } else if (currentPath.includes('/nl/oplossingen')) {
                                 newPath = `${baseUrl}en/oplossingen`;
-                            } else if (currentPath.endsWith('nl/gemeente')) {
+                            } else if (currentPath.includes('/nl/gemeente')) {
                                 newPath = `${baseUrl}en/gemeente`;
                             } else {
                                 newPath = `${baseUrl}en/home`; 
                             }
                         } else {
-                            if (currentPath.endsWith('en/home')) {
+                            if (currentPath.includes('/en/home')) {
                                 newPath = `${baseUrl}nl/home`;
-                            } else if (currentPath.endsWith('en/probleem')) {
+                            } else if (currentPath.includes('/en/probleem')) {
                                 newPath = `${baseUrl}nl/probleem`;
-                            } else if (currentPath.endsWith('en/oplossingen')) {
+                            } else if (currentPath.includes('/en/oplossingen')) {
                                 newPath = `${baseUrl}nl/oplossingen`;
-                            } else if (currentPath.endsWith('en/gemeente')) {
+                            } else if (currentPath.includes('/en/gemeente')) {
                                 newPath = `${baseUrl}nl/gemeente`;
                             } else {
                                 newPath = `${baseUrl}nl/home`; 
